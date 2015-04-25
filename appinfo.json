@@ -1,0 +1,29 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "girlgrammer",
+    "longName": "HackOverflow",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/hackoverflow.png",
+                "name": "IMAGE_HACKOVERFLOW",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "HackOverflow",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "09c327e4-8184-43a4-ad20-bce75e071737",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
