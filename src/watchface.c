@@ -52,7 +52,7 @@ static void handle_window_unload(Window* window) {
 }
 
 void change_logo_color(void) {
-  palette[1] = GColorFromRGB(rand()/255, rand()/255, rand()/255);
+  palette[1] = GColorFromRGB(rand()%256, rand()%256, rand()%256);
 }
 
 void update_time(struct tm* time) {
@@ -62,6 +62,7 @@ void update_time(struct tm* time) {
 
 void show_watchface(void) {
   initialise_ui();
+  srand(time(NULL));
   window_set_window_handlers(s_window, (WindowHandlers) {
     .unload = handle_window_unload,
   });
